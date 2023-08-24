@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mk-demo-007"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-011"
+    "humanitec.com/appId": "mk-demo-007"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
